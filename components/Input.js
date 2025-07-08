@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useState } from "react";
 import styles from "./Input.module.css";
 
 export default function Input({ command, onSubmit }) {
@@ -15,9 +15,6 @@ export default function Input({ command, onSubmit }) {
   return (
     <form onSubmit={(e) => handleSubmit(e)} className={styles.promptLine}>
       <label htmlFor="command" className={styles.promptLabel}>
-        <span className={styles.symbolLambda}>λ</span>
-        <span className={styles.symbolColon}> :: </span>
-        <span className={styles.symbolPath}>~</span>
         <span className={styles.symbolChevron}> &gt;&gt; </span>
       </label>
 

@@ -1,11 +1,15 @@
 const COMMANDS = [
   {
+    command: "Help",
+    icon: `<span class="icon">📌</span>`,
+  },
+  {
     command: "About",
     icon: `<span class="icon">👤</span>`,
   },
   {
     command: "Résumé",
-    icon: `<span class="icon">📄</span>`,
+    icon: `<span class="icon">📝</span>`,
   },
   {
     command: "Education",

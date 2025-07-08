@@ -15,21 +15,9 @@
   font-weight: bold;
 }
 
-.symbolLambda {
-  color: var(--secondary);
-  animation: pulse 3s infinite;
-}
-
-.symbolColon {
-  color: var(--secondary);
-}
-
-.symbolPath {
-  color: var(--secondary);
-}
-
 .symbolChevron {
   color: var(--secondary);
+  animation: pulse 3s infinite;
 }
 
 .input {
