@@ -30,8 +30,8 @@ function CyclingText({ options }) {
         whiteSpace: "pre",
         background: "#e63946",
         backgroundOrigin: "content-box",
-        position: "relative",
-        padding: "0 10px",
+        position: "center",
+        padding: "0 10px 0 10px",
         borderRadius: "5px",
       }}
     >
