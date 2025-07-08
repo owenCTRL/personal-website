@@ -22,9 +22,9 @@ export async function GET(request) {
       link: "https://X.com/Clickroot",
     },
     {
-      name: "DBNKD (Early Development) - Decentralized News Verification Platform",
+      name: "TruthGuard (Early Development) - Decentralized News Verification Platform",
       description:
-        "By Clickroot: News verification protocol meant to introduce abstracted information while removing biases and misinformation from the news ecosystem.",
+        "News verification protocol meant to introduce abstracted information while removing biases and misinformation from the news ecosystem.",
       stack: ["Typescript", "NextJS", "TailwindCSS"],
       link: "https://truthguard-clickroot.vercel.app",
     },
