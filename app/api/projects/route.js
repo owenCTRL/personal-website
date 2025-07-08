@@ -3,7 +3,7 @@ export async function GET(request) {
     {
       name: "OTTR - Over The Top Returns",
       description:
-        "Private Equity Group at the intersection of our most important industries and technologies. Whether it be for Financial Arbitrage, Political Consulting, Next-Gen AI Integrations, or Quantitative Research and Modeling, OTTR provides 'Over The Top Returns', regardless of the industry.",
+        "Venture Capital Group at the intersection of our most influential industries and technologies. Whether it be for Financial Arbitrage, Political Consulting, Next-Gen AI Integrations, or Quantitative Research and Modeling, OTTR provides 'Over The Top Returns', regardless of the industry.",
       stack: ["Software", "Politics", "Finance", "100x Strategy Design"],
       link: "https://x.com/ottrCo",
     },
