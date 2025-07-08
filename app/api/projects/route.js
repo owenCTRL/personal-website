@@ -12,7 +12,7 @@ export async function GET(request) {
       description:
         "Research and Modeling consulting firm. Sandbox Research is a think tank that provides research, modeling, and consulting services to help you achieve your goals, whether they be financial, political, or otherwise.",
       stack: ["Typescript", "NextJS", "Linear Algebra", "Python"],
-      link: "https://ottr-seven.vercel.app/",
+      link: "https://sandbox-research.vercel.app/",
     },
     {
       name: "Clickroot - Mission Critical, By Design",
@@ -26,7 +26,7 @@ export async function GET(request) {
       description:
         "By Clickroot: News verification protocol meant to introduce abstracted information while removing biases and misinformation from the news ecosystem.",
       stack: ["Typescript", "NextJS", "TailwindCSS"],
-      link: "https://truthguard-gamma.vercel.app",
+      link: "https://truthguard-clickroot.vercel.app",
     },
   ];
 
