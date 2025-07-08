@@ -5,19 +5,21 @@
   justify-content: center;
   height: 100vh;
   max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
   text-align: left;
 }
 
 .help {
   color: var(--text-color);
   font-size: 1.2rem;
-  vertical-align: middle;
+  line-height: 1.5;
   text-align: left;
 }
 
 .blink {
   animation: blink 1s step-start infinite;
-  color: var(--primary); /* optional: match your terminal color theme */
+  color: var(--primary);
 }
 
 @keyframes blink {
@@ -26,24 +28,52 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  h1 > .help {
-    display: block;
-    padding-bottom: 1rem;
-    text-align: center;
-    margin: 0 auto;
+/* Responsive adjustments */
+@media screen and (max-width: 968px) {
+  .container {
+    text-align: left;
   }
 
-  .container {
-    text-align: center;
+  h1 > .title {
+    font-size: 2rem;
+  }
+
+  h1 > .help {
+    display: inline;
+    font-size: 1rem;
+    text-align: left;
+    vertical-align: middle;
   }
 
   .title {
-    font-size: 3rem;
-    display: block;
-    text-align: center;
-    margin: 0 auto;
+    font-size: 2.25rem;
+    text-align: left;
   }
 
+  .help {
+    font-size: 1rem;
+  }
+}
 
+@media screen and (max-width: 600px) {
+  h1 > .title {
+    font-size: 1.5rem;
+  }
+
+  h1 > .help {
+    display: block;
+    font-size: 0.875rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+    text-align: left;
+  }
+
+  .help {
+    font-size: 0.875rem;
+  }
+  
 }

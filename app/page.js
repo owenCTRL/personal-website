@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>OwenTillger:$~<span className={styles.blink}>|</span><span className={styles.help}>type <CyclingText options={options} /> to start</span></h1>
-      <p>
+      <p className={styles.quickContact}>
         Quick Contact:{" "}
         <a href="mailto:owentillger@gmail.com" target="_blank" rel="noreferrer">
           owentillger@gmail.com
