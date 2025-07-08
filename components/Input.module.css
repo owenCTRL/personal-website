@@ -1,0 +1,72 @@
+.promptLine {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Fira Code', monospace;
+  font-size: 1rem;
+  white-space: nowrap;
+  margin-top: 1rem;
+}
+
+.promptLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+}
+
+.symbolLambda {
+  color: #ff9e64;
+  text-shadow: 0 0 5px #ff9e64;
+  animation: pulse 3s infinite;
+}
+
+.symbolColon {
+  color: #888;
+}
+
+.symbolPath {
+  color: var(--primary);
+}
+
+.symbolChevron {
+  color: var(--secondary);
+}
+
+.input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: var(--text-color);
+  font-family: monospace;
+  font-size: 1.1rem;
+  outline: none;
+  padding: 0.2rem 0;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Futuristic glow + animation */
+@keyframes pulse {
+  0%, 100% {
+    text-shadow: 0 0 5px #ff9e64, 0 0 10px #ff9e64;
+  }
+  50% {
+    text-shadow: 0 0 2px #ff9e64;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

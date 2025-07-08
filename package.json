@@ -1,0 +1,22 @@
+{
+  "name": "kavin25.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "airtable": "^0.12.2",
+    "cors": "^2.8.5",
+    "next": "^14.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0"
+  }
+}
