@@ -5,14 +5,14 @@ export async function GET(request) {
       description:
         "A consulting think tank. Whether it be for Financial Arbitrage, Political Consulting, Next-Gen AI Integrations, or Quantitative Research and Modeling, OTTR provides 'Over The Top Returns', regardless of the industry.",
       stack: ["Typescript", "NextJS", "TailwindCSS", "Python", "Solidity", "Rust"],
-      link: "https://ottr-seven.vercel.app/",
+      link: "https://x.com/ottrCo",
     },
     {
       name: "Sandbox Research - Test. Tweak. Win.",
       description:
         "Research and Modeling consulting firm. Sandbox Research is a think tank that provides research, modeling, and consulting services to help you achieve your goals, whether they be financial, political, or otherwise.",
       stack: ["Typescript", "NextJS", "Linear Algebra", "Python"],
-      link: "https://X.com/SandboxResearch",
+      link: "https://ottr-seven.vercel.app/",
     },
     {
       name: "Clickroot - Mission Critical, By Design",
