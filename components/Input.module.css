@@ -16,17 +16,16 @@
 }
 
 .symbolLambda {
-  color: #ff9e64;
-  text-shadow: 0 0 5px #ff9e64;
+  color: var(--secondary);
   animation: pulse 3s infinite;
 }
 
 .symbolColon {
-  color: #888;
+  color: var(--secondary);
 }
 
 .symbolPath {
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .symbolChevron {
@@ -53,10 +52,10 @@
 /* Futuristic glow + animation */
 @keyframes pulse {
   0%, 100% {
-    text-shadow: 0 0 5px #ff9e64, 0 0 10px #ff9e64;
+    text-shadow: 0 0 5px #1d259a, 0 0 10px #287dd2;
   }
   50% {
-    text-shadow: 0 0 2px #ff9e64;
+    text-shadow: 0 0 2px #64e8ff;
   }
 }
 
