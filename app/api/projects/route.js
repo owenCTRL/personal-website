@@ -3,14 +3,14 @@ export async function GET(request) {
     {
       name: "OTTR - Over The Top Returns",
       description:
-        "A consulting think tank. Whether it be for Financial Arbitrage, Political Consulting, Next-Gen AI Integrations, or Quantitative Research and Modeling, OTTR provides 'Over The Top Returns', regardless of the industry.",
+        "Private Equity Group at the intersection of our most important industries and technologies. Whether it be for Financial Arbitrage, Political Consulting, Next-Gen AI Integrations, or Quantitative Research and Modeling, OTTR provides 'Over The Top Returns', regardless of the industry.",
       stack: ["Typescript", "NextJS", "TailwindCSS", "Python", "Solidity", "Rust"],
       link: "https://x.com/ottrCo",
     },
     {
       name: "Sandbox Research - Test. Tweak. Win.",
       description:
-        "Research and Modeling consulting firm. Sandbox Research is a think tank that provides research, modeling, and consulting services to help you achieve your goals, whether they be financial, political, or otherwise.",
+        "Strategy, Research and Modeling consulting firm. Sandbox Research is a think tank that provides services to help you achieve your goals, whatever they may be.",
       stack: ["Typescript", "NextJS", "Linear Algebra", "Python"],
       link: "https://sandbox-research.vercel.app/",
     },
@@ -24,7 +24,7 @@ export async function GET(request) {
     {
       name: "TruthGuard (Early Development) - Decentralized News Verification Platform",
       description:
-        "News verification protocol meant to introduce abstracted information while removing biases and misinformation from the news ecosystem.",
+        "By Clickroot: News verification protocol meant to introduce abstracted information while removing biases and misinformation from the news ecosystem.",
       stack: ["Typescript", "NextJS", "TailwindCSS"],
       link: "https://truthguard-clickroot.vercel.app",
     },
