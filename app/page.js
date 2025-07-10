@@ -52,10 +52,6 @@ export default function Home() {
           owentillger@gmail.com
         </a>
         <a> | </a>
-        <a href="https://x.com/0xOwen" target="_blank" rel="noreferrer">
-          x.com/0xOwen
-        </a>
-        <a> | </a>
         <a href="https://t.me/OwenOTTR" target="_blank" rel="noreferrer">
           t.me/@OwenOTTR
         </a>
