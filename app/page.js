@@ -41,7 +41,7 @@ function CyclingText({ options }) {
 }
 
 export default function Home() {
-  const options = ["help", "about", "education", "projects", "contact"];
+  const options = ["help", "about", "resume", "education", "skills", "projects", "journal", "contact"];
   
   return (
     <div className={styles.container}>
