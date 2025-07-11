@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Terminal from "../components/Terminal";
 import styles from "./Home.module.css";
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function CyclingText({ options }) {
   const [index, setIndex] = useState(0);
@@ -59,6 +60,7 @@ export default function Home() {
       </p>
       <Terminal />
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
