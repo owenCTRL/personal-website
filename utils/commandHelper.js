@@ -29,8 +29,8 @@ const COMMANDS = [
     icon: `<span class="icon">📁</span>`,
   },
   {
-    command: "Journal",
-    icon: `<span class="icon">📓</span>`,
+    command: "My Music",
+    icon: `<span class="icon">🔊</span>`,
   },
   {
     command: "Contact",
@@ -252,9 +252,8 @@ export const CONTENTS = {
     `;
   },
 
-
-  journal: () => {
-    window.open("https://substack.com/@0xowen", "_blank");
+  music: () => {
+    window.open("https://soundcloud.com/0xowen", "_blank");
     return "";
   },
 
