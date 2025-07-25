@@ -29,7 +29,7 @@ const COMMANDS = [
     icon: `<span class="icon">📁</span>`,
   },
   {
-    command: "My Music",
+    command: "Music",
     icon: `<span class="icon">🔊</span>`,
   },
   {
