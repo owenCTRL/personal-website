@@ -1,18 +1,11 @@
 export async function GET(request) {
   const projects = [
     {
-      name: "OTTR - Over The Top Returns",
+      name: "ottrAI - Over The Top Returns",
       description:
-        "Venture Capital Group at the intersection of our most influential industries and technologies. Whether it be for Financial Arbitrage, Political Consulting, Next-Gen AI Integrations, or Quantitative Research and Modeling, OTTR provides 'Over The Top Returns', regardless of the industry.",
-      stack: ["Software", "Politics", "Finance", "100x Strategy Design"],
-      link: "https://x.com/ottrCo",
-    },
-    {
-      name: "Sandbox Research - Test. Tweak. Win.",
-      description:
-        "Strategy, Research and Modeling consulting firm. Sandbox Research is a think tank that provides services to help you achieve your goals, whatever they may be.",
-      stack: ["Growth Strategy", "Predictive Modeling", "Copy/Writing", "and more..."],
-      link: "https://sandbox-research.vercel.app/",
+        "Your personal Chief Strategist. ottrAI provides 'Over The Top Returns', regardless of the industry.",
+      stack: ["Software", "Politics", "Finance", "Personal Life", "100x Strategy Design"],
+      link: "https://ottr-company.vercel.app",
     },
     {
       name: "Clickroot - Mission Critical, By Design",
@@ -27,6 +20,13 @@ export async function GET(request) {
         "News verification protocol meant to introduce abstracted information while removing biases and misinformation from the news ecosystem.",
       stack: ["Typescript", "NextJS", "TailwindCSS", "and more..."],
       link: "https://truthguard-clickroot.vercel.app",
+    },
+    {
+      name: "Dance Music I've Made",
+      description:
+        "I like to make music in my free time. Check it out!",
+      stack: [""],
+      link: "https://soundcloud.com/0xOwen",
     },
   ];
 

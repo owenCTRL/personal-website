@@ -8,12 +8,13 @@ import styles from "./Terminal.module.css";
 const SHORTCUTS = {
   "1": "help",
   "2": "about",
-  "3": "resume",
-  "4": "education",
-  "5": "skills",
-  "6": "projects",
-  "7": "journal",
-  "8": "contact",
+  "3": "chat",
+  "4": "resume",
+  "5": "education",
+  "6": "skills",
+  "7": "projects",
+  "8": "journal",
+  "9": "contact",
   "ctrl+l": "clear",
 };
 
@@ -31,7 +32,7 @@ export default function Terminal() {
       const command = SHORTCUTS[shortcut];
       if (command) {
         e.preventDefault(); // optional, to block default actions like browser clear screen
-        addCommand(command); // <-- You must define this function or use your existing handler
+        addCommand(command);
       }
     };
 

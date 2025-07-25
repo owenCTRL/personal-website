@@ -1,9 +1,3 @@
-Here’s a polished, **resume-style `README.md` template** tailored specifically for a **personal portfolio website**—the kind designed to showcase your **skills**, **projects**, and **value** to prospective employers, clients, or collaborators.
-
-It features clean structure, professional tone, and subtle visual flair to stand out while staying elegant and credible:
-
----
-
 ````md
 <h1 align="center">👋 Hi, I'm Your Name</h1>
 <p align="center">

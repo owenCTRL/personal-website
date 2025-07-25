@@ -7,6 +7,11 @@ const COMMANDS = [
     command: "About",
     icon: `<span class="icon">👤</span>`,
   },
+  // {
+  //   command: "AI Chat",
+  //   icon: `<span class="icon">💬</span>`,
+  //   description: "Chat with AI trained to speak like me.",
+  // },
   {
     command: "Résumé",
     icon: `<span class="icon">📝</span>`,
@@ -106,6 +111,11 @@ export const CONTENTS = {
     <br /><br />
   `,
 
+  // chat: () => {
+  //   //Show chat modal (toggle a hidden chat container instead of returning text)
+  //   document.getElementById("chatModal").style.display = "flex";
+  //   return `<div class="command">Opening chat...</div>`;
+  // },
 
   education: () => `
     <br />
